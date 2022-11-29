@@ -3,17 +3,14 @@ package main
 import (
 	"net/http"
 	"log"
+
+	"github.com/hmuhammadazeem/user-service/app/routing"
 )
 
 
 func main() {
-	http.HandleFunc("/api/health", func(w http.ResponseWriter, r *http.Request) {
-		log.Default().Print("Health check")
-	})
-
-	http.HandleFunc("/api/username", func(w http.ResponseWriter, r *http.Request) {
-		log.Default().Print("Username check")
-	})
-
+	http.HandleFunc("/api/health", routing.HealthHandler())
+	
+	log.Default().Print("Started listening on port 8080")
 	log.Fatal(http.ListenAndServe(":8080", nil))
 }
