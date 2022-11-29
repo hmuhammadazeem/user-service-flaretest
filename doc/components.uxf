@@ -1,0 +1,13 @@
+<diagram program="umletino" version="15.0.0"><zoom_level>10</zoom_level><help_text>Space for diagram notes</help_text><element><id>UMLClass</id><coordinates><x>300</x><y>160</y><w>320</w><h>30</h></coordinates><panel_attributes>Routing</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>300</x><y>230</y><w>320</w><h>30</h></coordinates><panel_attributes>Handler</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>300</x><y>300</y><w>320</w><h>30</h></coordinates><panel_attributes>UsernameService</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>300</x><y>430</y><w>150</w><h>50</h></coordinates><panel_attributes>
+Bloom</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>470</x><y>430</y><w>150</w><h>50</h></coordinates><panel_attributes>
+Persistance
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>310</x><y>320</y><w>90</w><h>130</h></coordinates><panel_attributes>lt=&lt;-
+Checks
+Username
+Doesn't
+Exists?</panel_attributes><additional_attributes>10;110;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>540</x><y>320</y><w>90</w><h>130</h></coordinates><panel_attributes>lt=&lt;-
+Confirm
+Username
+Exists?</panel_attributes><additional_attributes>10;110;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>420</x><y>320</y><w>70</w><h>130</h></coordinates><panel_attributes>lt=&lt;-
+Update</panel_attributes><additional_attributes>10;110;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>450</x><y>180</y><w>30</w><h>70</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;50;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>360</x><y>250</y><w>30</w><h>70</h></coordinates><panel_attributes>lt=&lt;-
+</panel_attributes><additional_attributes>10;50;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>540</x><y>250</y><w>30</w><h>70</h></coordinates><panel_attributes>lt=-&gt;</panel_attributes><additional_attributes>10;50;10;10</additional_attributes></element></diagram>
