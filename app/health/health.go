@@ -11,7 +11,7 @@ const (
 	StatusHealthy = "healthy"
 	StatusError   = "error"
 
-	MemoryThresh  = 2*1024*1024*1024
+	MemoryThresh  = 2*1024*1024*1024 // bytes
 )
 
 var indicators = []healthIndicator{PingHealthIndicator, MemoryIndicator}
